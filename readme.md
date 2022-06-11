@@ -60,6 +60,8 @@ iV) Consultar del nombre del tercer objeto mas barato.
 
 ## Punto 6- Ingresar con el usuario "pepe" pwd: "asd456" y comprobar sus permisos con los siguientes comandos.
 
+    mongosh -u pepe -p asd456
+
 ### Leer la lista de productos. (PERMITIDO)
 
     db.productos.find()
